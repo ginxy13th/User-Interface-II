@@ -18,6 +18,13 @@ body{
     align-items:center;
 }
 
+h1{
+    text-shadow:5px 5px 3px #f304cb;
+    font-size: 3.5rem;
+    color: #ce9fe9;
+    font-family: 'Dancing Script', cursive;
+}
+
 .buttons{
     display: flex;
     flex-direction:row;
@@ -31,6 +38,8 @@ body{
     text-align:center;
     padding:.2rem;
     margin: .5rem;
+    background-color: rebeccapurple;
+    color: pink;
 }
 
 .small-container{
