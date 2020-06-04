@@ -1,1 +1,42 @@
 /* Add CSS styling here */
+body{
+    max-width:100%vw;
+}
+
+*{
+    border:1px solid gray;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.buttons a{
+    height:1.5rem;
+    width:auto;
+    text-align:center;
+    padding:.2rem;
+    margin: .5rem;
+}
+
+.projects{
+    height:100px;
+    display:flex;
+    align-items:stretch;
+    height:25rem
+}
+
+.projects a,p{
+    margin:.5rem;
+    width:20%;
+}
