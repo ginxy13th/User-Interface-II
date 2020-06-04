@@ -29,14 +29,33 @@ body{
     margin: .5rem;
 }
 
+.small-container{
+    width:75%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:end
+}
+
+.small-container p{
+    width:100%;
+}
+
 .projects{
     height:100px;
     display:flex;
     align-items:stretch;
+    justify-content:stretch;
     height:25rem
 }
 
-.projects a,p{
+.projects a{
+    width:18%;
     margin:.5rem;
-    width:20%;
 }
+
+.projects p2{
+    width: 18%;
+    margin:.5rem;
+}
+
