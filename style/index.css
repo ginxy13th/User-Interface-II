@@ -40,6 +40,7 @@ p{
     flex-direction:row;
     justify-content:center;
     align-items:center;
+    margin:-2rem auto 5rem auto;
 }
 
 .buttons a{
@@ -50,6 +51,7 @@ p{
     margin: .5rem;
     background-color: rebeccapurple;
     color: pink;
+    text-decoration: none;
 }
 
 .buttons :hover{
@@ -97,3 +99,25 @@ p{
     color: #32bb32;
 }
 
+.footer-buttons{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-buttons a{
+    height:1.5rem;
+    width:auto;
+    text-align:center;
+    padding:.2rem;
+    margin: .5rem;
+    background-color: rebeccapurple;
+    color: pink;
+    text-decoration: none;
+}
+
+.footer-buttons :hover{
+    background-color:paleturquoise;
+    color:darkolivegreen;
+}
