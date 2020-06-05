@@ -6,11 +6,11 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
-
+/*
 *{
     border:1px solid gray;
 }
-
+*/
 .container {
     display:flex;
     flex-direction:column;
@@ -20,9 +20,19 @@ body{
 
 h1{
     text-shadow:5px 5px 3px #f304cb;
-    font-size: 3.5rem;
+    font-size: 6rem;
     color: #ce9fe9;
     font-family: 'Dancing Script', cursive;
+}
+
+.small-container{
+    background-color:#ffffa0;
+    color: #ff7300;
+    border-radius: 50%;
+}
+
+p{
+    padding-bottom: 1.5rem;
 }
 
 .buttons{
@@ -61,7 +71,8 @@ h1{
 
 .content img{
    height:500px;
-   margin:10px;
+   margin:10px 55px;
+   width:90%;
 }
 
 .projects{
@@ -69,10 +80,10 @@ h1{
     display:flex;
     align-items:stretch;
     justify-content:stretch;
-    height:25rem
+    height:32.5rem;
 }
 
-.projects a{
+#project1, #project2, #project3, #project4{
     width:18%;
     margin:.5rem;
 }
