@@ -1,6 +1,6 @@
 /* Add CSS styling here */
 body{
-    max-width:100vw;
+    max-width:100%;
     background-image: url("./pic.jpg");
     background-repeat: none;
     background-position: center;
@@ -16,6 +16,30 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:center;
+}
+
+@media (max-width: 800px){
+
+}
+
+@media (max-width: 500px){
+    .buttons{
+        flex-direction:column;
+    }
+    .projects{
+        flex-wrap: wrap;
+    }
+    #project1, #project2, #project3, #project4{
+        width:48%;
+        margin:.1%;
+    }
+    .projects p2{
+        width:98%;
+        margin:1%;
+    }
+    .footer-buttons{
+        flex-direction: column;
+    }
 }
 
 h1{
