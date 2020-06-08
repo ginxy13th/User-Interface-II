@@ -129,25 +129,33 @@ p2{
 }
 
 @media(max-width: 500px){
+    h1{
+        text-align: center;
+    }
+
     .buttons{
         display:flex;
         flex-direction:column;
+        justify-content: center;
+        align-items: center;
     }
     .projects{
         display:flex;
         flex-flow: row wrap;
     }
     #project1, #project2, #project3, #project4{
-        width:48%;
-        margin:.1%;
+        width:46%;
+        margin:2%;
     }
     p2{
         width:98%;
         height: 15%;
-        margin:1%;
+        margin:1rem;
     }
     .footer-buttons{
         display:flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
