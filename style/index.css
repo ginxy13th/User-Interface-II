@@ -18,33 +18,7 @@ body{
     align-items:center;
 }
 
-@media (max-width: 800px){
 
-}
-
-@media (max-width: 500px){
-    .buttons{
-        display:flex;
-        flex-direction:column;
-    }
-    .projects{
-        display:flex;
-        flex-wrap: wrap;
-    }
-    #project1, #project2, #project3, #project4{
-        width:24%;
-        margin:.1%;
-    }
-    .p2{
-        width:98%;
-        height: 98%;
-        margin:1%;
-    }
-    .footer-buttons{
-        display:flex;
-        flex-direction: column;
-    }
-}
 
 h1{
     text-shadow:0.3125rem 0.3125rem 0.1875rem #f304cb;
@@ -148,4 +122,32 @@ p2{
 .footer-buttons :hover{
     background-color:paleturquoise;
     color:darkolivegreen;
+}
+
+@media (max-width: 800px){
+
+}
+
+@media(max-width: 500px){
+    .buttons{
+        display:flex;
+        flex-direction:column;
+    }
+    .projects{
+        display:flex;
+        flex-flow: row wrap;
+    }
+    #project1, #project2, #project3, #project4{
+        width:48%;
+        margin:.1%;
+    }
+    p2{
+        width:98%;
+        height: 15%;
+        margin:1%;
+    }
+    .footer-buttons{
+        display:flex;
+        flex-direction: column;
+    }
 }
